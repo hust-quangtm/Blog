@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Blog</title>
+    <title>Articles</title>
     {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css"> --}}
     <link rel="stylesheet" href="/css/app.css" type="text/css">
     <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" />
@@ -46,13 +46,11 @@
     <section class="article">
         <div class="container">
         <div class="column col-sm-12">
-            @foreach($articles as $articles)
             <div class="col-sm-6 col-sm-offset-3">
-                <h2>{{ $articles->title}}</h2>
+                {{-- <h2>{{ $articles->title}}</h2>
                 <p>{{ $articles->content}}</p>
-                <p><a href="#">Read more</a></p>
+                <p><a href="#">Read more</a></p> --}}
             </div>
-            @endforeach
         </div>
     </div>
     </section>
